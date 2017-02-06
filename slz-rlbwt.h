@@ -434,7 +434,7 @@ public:
 		lz_2_sided_range_search.load_from_file(two_sided_filename);
 
 		if(verbose)
-			cout << "done!" << endl;
+			cout << "done! number of LZ77-d phrases: " << lz_2_sided_range_search.number_of_phrases() << endl;
 
 		{
 
